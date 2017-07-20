@@ -1,0 +1,7 @@
+<div class="wrapper">
+  <h1>Switchboard</h1>
+  <div class="buttons" *ngFor="let switch of switches, let i = index" (click)="toggle(i)">
+    <button type="button" name="button" class="on" *ngIf="switch">ON</button>
+    <button type="button" name="button" class="off" *ngIf="!switch">OFF</button>
+  </div>
+</div>

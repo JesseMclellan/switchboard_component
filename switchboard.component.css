@@ -1,0 +1,26 @@
+.wrapper{
+  text-align: center;
+}
+
+.buttons{
+  height: 30px;
+  width: 30px;
+  background-color: #b35900;
+  display: inline-block;
+  margin: 3px;
+  padding: 12px;
+}
+
+.on{
+  text-align: center;
+  height: 27px;
+  width: 32px;
+  background-color: green;
+}
+
+.off{
+  text-align: center;
+  height: 27px;
+  width: 32px;
+  background-color: red;
+}
